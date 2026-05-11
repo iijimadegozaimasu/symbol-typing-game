@@ -1,0 +1,75 @@
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f4f4f9;
+}
+
+#game-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#symbol-name {
+    font-size: 22px;
+    color: #666;
+    margin-top: 20px;
+    font-weight: bold;
+    height: 30px; /* 高さを固定してガタつきを防止 */
+}
+
+#target {
+    font-size: 56px;
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+    color: #333;
+    letter-spacing: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#input-box {
+    font-size: 28px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    ime-mode: disabled; /* レガシーブラウザ向け */
+}
+
+#input-box:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+#message {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #007BFF;
+}
+
+#start-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+#start-btn:hover {
+    background-color: #0056b3;
+}
